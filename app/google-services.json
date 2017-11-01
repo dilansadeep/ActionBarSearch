@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "440420132468",
+    "firebase_url": "https://actionbarsearch.firebaseio.com",
+    "project_id": "actionbarsearch",
+    "storage_bucket": "actionbarsearch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440420132468:android:53af38d4ef439a45",
+        "android_client_info": {
+          "package_name": "com.epicapps.actionbarsearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440420132468-9n1153qqohv530kg3m9c00tcknsvrjpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6AlfLPyOgrZddRdDPbBUoRQZBVcTMCAw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
