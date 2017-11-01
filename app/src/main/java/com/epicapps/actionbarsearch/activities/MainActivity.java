@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void init() {
 
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        recyclerView = findViewById(R.id.recycler_view);
 
         madapter = new StartUpAdapter(startUpDataList,this );
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager((getApplicationContext()));
@@ -113,4 +113,11 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
     }
 
+    /**
+     * customizable toast
+     * @param message
+     */
+    private void toastMessageTwo(String message){
+        Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
+    }
 }
